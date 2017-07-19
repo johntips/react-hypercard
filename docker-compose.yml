@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  app:
+    build: "./conf"
+    volumes:
+      - 'data:/go'
+      - '.:/go/src/github.com/hhlab/react_hypercard'
+    ports:
+      - '8080:8080'
+    working_dir: /go/src/github.com/hhlab/react_hypercard
+    command: 'go run main.go'
+
+volumes:
+  data:
+    driver: 'local'
