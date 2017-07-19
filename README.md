@@ -1,14 +1,14 @@
-#React-hypercard
+# React-hypercard
 
-##WIP
+## WIP
 
 - node/webpack kit / front end server
 - mongo
 - mysql
 
-##DONE
+## DONE
 
-#go gin api
+- go gin api
 
 # go-docker-development
 
